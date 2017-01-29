@@ -1,0 +1,1178 @@
+﻿<Window x:Class="Harmonogon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Harmonogon 1.0" Height="662.637" Width="1244.818" WindowState="Maximized" >
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Aqua"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Grid.Style>
+                                <Style TargetType="{x:Type Grid}">
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="False">
+                                            <Setter Property="Opacity" Value="0.2"></Setter>
+                                        </Trigger>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Opacity" Value="0.5"></Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Grid.Style>
+                            <Path Width="65" Height="65" Stretch="Uniform" 
+                                  Fill="{Binding Foreground, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Button}}"
+                                  Data="M8.660254,0 L17.320508,5 17.320508,15 8.660254,20 0,15 0,5 8.660254,0 Z" OpacityMask="#FF7AFBFF" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Resources/hexagons2.png" HorizontalAlignment="Stretch" Margin="-105,-62,479.8,398.8" VerticalAlignment="Stretch" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="0.8" ScaleY="0.8"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,20,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,58,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="289,58,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="485,20,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="744,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="810,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="875,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="941,58,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,134,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,96,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,134,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="289,134,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="485,96,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="744,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="810,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="875,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="941,134,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS6" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="223,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="288,211,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="353,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="418,210,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="484,173,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="549,210,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="613,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="678,210,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="743,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="809,210,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="874,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="940,211,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="223,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="288,288,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="353,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="418,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="484,250,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="549,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="613,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="678,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="743,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="809,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="874,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="940,288,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,326,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="289,365,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,326,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,364,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="485,327,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,364,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,326,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,364,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="744,326,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="810,364,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="875,326,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="941,365,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="225,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="355,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="486,403,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="551,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="615,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="745,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="811,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="876,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="942,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="225,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,517,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="355,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="486,479,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="551,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="615,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="745,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="811,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="876,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="942,517,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,211,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,173,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,211,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_5" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,365,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,327,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS4" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,365,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,403,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS3" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="30,519,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="95,481,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="160,519,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,557,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,556,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="485,556,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,556,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="745,556,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="876,557,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,559,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_2" OpacityMask="#FF7AFBFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Image Source="/Resources/tutorials.png" HorizontalAlignment="Left" Height="617" Margin="1052,9,-37.8,0" VerticalAlignment="Top" Width="617" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

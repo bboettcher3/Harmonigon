@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is compatible with Silverlight-->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="hex" Width="278" Height="300">
+  <Canvas.RenderTransform>
+    <TranslateTransform X="0" Y="0"/>
+  </Canvas.RenderTransform>
+  <Canvas.Resources/>
+  <!--Unknown tag: metadata-->
+  <!--Unknown tag: sodipodi:namedview-->
+  <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path3680" Fill="#FFFFFFFF" Data=" M 0.00 0.00 L 278.00 0.00 L 278.00 300.00 L 0.00 300.00 L 0.00 0.00 Z"/>
+  <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path3682" Fill="#FF000000" Data=" M 128.14 6.38 C 133.03 5.56 138.20 6.11 143.19 6.09 C 180.90 27.54 218.27 49.63 256.00 71.06 C 256.01 118.13 255.98 165.19 256.02 212.26 C 218.30 234.31 180.34 255.93 142.62 277.98 C 138.21 278.02 133.80 278.00 129.39 277.99 C 91.66 255.94 53.70 234.27 15.95 212.27 C 16.08 165.20 15.95 118.14 16.01 71.08 C 53.47 49.67 90.73 27.89 128.14 6.38 Z"/>
+  <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path3684" Fill="#FFFFFFFF" Data=" M 20.52 75.57 C 59.05 53.44 97.42 31.06 135.95 8.94 C 174.52 31.06 213.01 53.33 251.43 75.69 C 251.44 120.10 251.36 164.50 251.47 208.91 C 213.09 231.37 174.45 253.44 136.00 275.80 C 97.52 253.41 58.83 231.37 20.44 208.83 C 20.59 164.41 20.43 119.99 20.52 75.57 Z"/>
+</Canvas>

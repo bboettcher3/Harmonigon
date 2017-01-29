@@ -1,0 +1,16 @@
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\Properties\Resources.resx
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\Properties\Resources.Designer.cs
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\Harmonogon.exe.config
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\Harmonogon.exe
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\Harmonogon.pdb
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\NAudio.dll
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\bin\Debug\NAudio.xml
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\MainWindow.baml
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\MainWindow.g.cs
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\App.g.cs
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\Harmonogon_Content.g.cs
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\Harmonogon_MarkupCompile.cache
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\Harmonogon.g.resources
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\Harmonogon.exe
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\Harmonogon.pdb
+c:\users\asus1\documents\visual studio 2013\Projects\Harmonogon\Harmonogon\obj\Debug\Harmonogon.csprojResolveAssemblyReference.cache
