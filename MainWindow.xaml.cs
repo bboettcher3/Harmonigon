@@ -31,6 +31,7 @@ namespace Harmonogon
         WaveOut[,] waves;
         float[,] freqs;
         SolidColorBrush redBrush;
+        float timerSecs;
         //new sig gen
         //private SignalGenerator[,] waves;
         //private SignalGenerator wg;
@@ -42,6 +43,7 @@ namespace Harmonogon
             InitializeComponent();
             var sineWaveProvider = new SineWaveProvider32();
             redBrush = new SolidColorBrush(Colors.Red);
+            timerSecs = 2;
 
             //new stuff
             // Init Audio
@@ -58,6 +60,14 @@ namespace Harmonogon
                 /*6 */  {1047f, 1109f, 1175f, 1245f, 1319f, 1397f, 1480f, 1568f, 1661f, 1760f, 1865f, 1976f}
             };
             waves = new WaveOut[5, 12];
+        }
+
+        //delay slider updated
+        private void sliderChanged(object sender, RoutedEventArgs e)
+        {
+            Slider slider = (Slider)sender;
+            timerSecs = (float)slider.Value;
+            //((Label)sliderValue).Content = timerSecs;
         }
 
         //play button
@@ -148,7 +158,7 @@ namespace Harmonogon
                 waves[i1, i2] = null;
                 
             }
-            var timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(2) };
+            var timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(timerSecs) };
             timer.Start();
             timer.Tick += (sender, args) =>
             {
@@ -170,6 +180,8 @@ namespace Harmonogon
         }
 
     }
+
+
 
     public class SineWaveProvider32 : WaveProvider32
     {

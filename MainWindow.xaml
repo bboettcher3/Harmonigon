@@ -52,7 +52,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,59,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -82,7 +82,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,21,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -102,7 +102,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,19,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,21,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -112,7 +112,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,59,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -132,7 +132,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,57,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,59,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -212,7 +212,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,96,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,97,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -232,7 +232,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,97,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -242,7 +242,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="289,134,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,136,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -252,7 +252,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="355,97,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -262,7 +262,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,136,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -282,7 +282,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,136,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -292,7 +292,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,95,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_6" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,97,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_6" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -302,7 +302,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,133,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,136,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -352,7 +352,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="223,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,174,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -362,7 +362,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="288,211,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="289,213,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -372,7 +372,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="353,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,174,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -382,7 +382,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="418,210,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,212,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -412,7 +412,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="613,172,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,173,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -422,7 +422,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="678,210,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,211,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -472,7 +472,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="223,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="224,251,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -482,7 +482,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="288,288,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="289,289,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -492,7 +492,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="353,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,250,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -502,7 +502,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="418,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,289,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -532,7 +532,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="613,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_5" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,250,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_5" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -542,7 +542,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="678,287,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,289,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -612,7 +612,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,326,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="354,328,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -622,7 +622,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="419,364,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,366,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -662,7 +662,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,364,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="679,366,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -712,7 +712,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="225,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="225,404,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -722,7 +722,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,443,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -732,7 +732,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="355,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="355,404,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -742,7 +742,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,443,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -752,7 +752,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="486,403,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="485,404,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -762,7 +762,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="551,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="550,442,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -772,7 +772,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="615,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="614,403,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -782,7 +782,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,442,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="g_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -792,7 +792,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="745,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="744,404,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -802,7 +802,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="811,440,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="810,442,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -812,7 +812,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="876,402,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="875,403,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -822,7 +822,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="942,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="940,443,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -832,7 +832,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="225,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="226,482,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -842,7 +842,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,517,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_2" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="290,520,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="a_2" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -852,7 +852,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="355,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="356,481,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -862,7 +862,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="420,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS2" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="421,520,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="aS2" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -882,7 +882,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="551,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_2" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="551,520,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="b_2" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -892,7 +892,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="615,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="615,481,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -902,7 +902,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="680,519,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="c_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -912,7 +912,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="745,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="745,482,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="e_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -922,7 +922,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="811,516,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="810,520,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="cS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -932,7 +932,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="876,478,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="875,480,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="f_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -942,7 +942,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="942,517,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="940,519,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -992,7 +992,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,249,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS4" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,250,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="gS4" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -1042,7 +1042,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="29,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="30,442,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="d_3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -1052,7 +1052,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="94,403,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="95,404,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="fS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -1062,7 +1062,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,441,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS3" OpacityMask="#FF7AFBFF">
+        <Button Style="{StaticResource ButtonStyle}" Click="onPlay" HorizontalAlignment="Left" Margin="159,443,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.5,0.5" Height="68" Tag="dS3" OpacityMask="#FF7AFBFF">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="1.33" ScaleY="1.33"/>
@@ -1172,7 +1172,8 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Image Source="/Resources/tutorials.png" HorizontalAlignment="Left" Height="617" Margin="1052,9,-37.8,0" VerticalAlignment="Top" Width="617" Grid.ColumnSpan="2"/>
-
+        <Image Source="/Resources/tutorials.png" HorizontalAlignment="Left" Height="617" Margin="1051,19,-36.8,0" VerticalAlignment="Top" Width="617" Grid.ColumnSpan="2"/>
+        <Slider AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" Value="2" ValueChanged="sliderChanged" Maximum="5" Minimum="0.1" IsMoveToPointEnabled="True" HorizontalAlignment="Left" Margin="991,19,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Note Length" HorizontalAlignment="Left" Margin="991,-7,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
